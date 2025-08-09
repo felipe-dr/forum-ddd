@@ -1,0 +1,20 @@
+{
+  "name": "forum-ddd",
+  "version": "1.0.0",
+  "description": "Rocketseat Formação Node.js: DDD no Node.js",
+  "author": {
+    "name": "Felipe DR",
+    "email": "felipe.corp7@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipe-dr/forum-ddd"
+  },
+  "bugs": {
+    "url": "https://github.com/felipe-dr/forum-ddd/issues",
+    "email": "felipe.corp7@gmail.com"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "scripts": { }
+}
