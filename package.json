@@ -16,5 +16,9 @@
   },
   "keywords": [],
   "license": "ISC",
-  "scripts": { }
+  "scripts": { },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "typescript": "5.0.4"
+  }
 }
