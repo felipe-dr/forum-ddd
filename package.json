@@ -23,6 +23,7 @@
     "lint:fix": "eslint src --ext .ts --fix"
   },
   "devDependencies": {
+    "@faker-js/faker": "7.6.0",
     "@types/node": "18.15.11",
     "@rocketseat/eslint-config": "1.2.0",
     "typescript": "5.0.4",
