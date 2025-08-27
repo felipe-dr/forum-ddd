@@ -51,7 +51,7 @@ describe('On Answer Created Subscriber', () => {
     new OnAnswerCreated(inMemoryQuestionsRepository, sendNotificationUseCase)
   })
 
-  it('should  send a notification when an answer is created', async () => {
+  it('should send a notification when an answer is created', async () => {
     const question = makeQuestion()
     const answer = makeAnswer({ questionId: question.id })
 
