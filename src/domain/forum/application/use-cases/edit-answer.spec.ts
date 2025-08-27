@@ -1,4 +1,5 @@
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
+import { NotAllowedError } from '@/core/errors/not-allowed-error'
 
 import { makeAnswer } from 'test/factories/make-answer'
 import { makeAnswerAttachment } from 'test/factories/make-answer-attachments'
@@ -6,7 +7,6 @@ import { InMemoryAnswerAttachmentsRepository } from 'test/repositories/in-memory
 import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-repository'
 
 import { EditAnswerUseCase } from './edit-answer'
-import { NotAllowedError } from './errors/not-allowed-error'
 
 let inMemoryAnswerAttachmentsRepository: InMemoryAnswerAttachmentsRepository
 let inMemoryAnswersRepository: InMemoryAnswersRepository
